@@ -1,18 +1,3 @@
-/*
- * Copyright 2022 Marco Cattaneo
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 
 object Versions {
     const val COMPOSE = "1.1.0"
@@ -62,4 +47,11 @@ object TestLibs {
 
 object AndroidLibs {
     const val MATERIAL = "com.google.android.material:material:1.5.0"
+}
+
+object AmplifyLibs {
+    const val CORE = "com.amplifyframework:core:1.6.5'"
+    const val AWS_API = "com.amplifyframework:aws-api:1.6.5"
+    const val AWS_DATASTORE = "com.amplifyframework:aws-datastore:1.6.5"
+    const val JAVA_8_FEATURES_SUPPORT = "com.android.tools:desugar_jdk_libs:1.0.10"
 }
